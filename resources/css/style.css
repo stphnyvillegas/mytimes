@@ -1,0 +1,78 @@
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin: 0 auto; 
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid black;
+  height: 70px;
+}
+.main-header {
+  display: flex;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo h3 {
+  padding-left: 5px;
+}
+
+nav {
+  display: block;
+  padding-right: 30px;
+  align-content: flex-start;
+}
+
+nav span {
+  display: inline-block;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+.main-container {
+  display: flex;
+}
+
+.l-column {
+  width: 630px;
+}
+
+.m-column {
+  width: 300px;
+}
+
+.s-column {
+  width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+div {
+  border: 1px solid black;
+}
