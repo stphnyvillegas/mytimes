@@ -5,6 +5,8 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER N NAVIGATION */
+
 header {
   background-color: white;
   width: 100%;
@@ -62,6 +64,8 @@ a {
   align-items: stretch;
   justify-content: space-around;
 }
+
+
 /* COLUMN SIZES */
 
 
