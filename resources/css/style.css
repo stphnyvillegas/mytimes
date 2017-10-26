@@ -35,6 +35,7 @@ header {
   color: MediumAquamarine;
   align-items: center;
   flex-grow: 1;
+  padding-left: 10px;
 }
 
 .logo h3 {
@@ -161,7 +162,6 @@ a {
 }
 
 .cats p {
-  text-align: center;
   font-size: 30px;
 }
 
@@ -200,11 +200,30 @@ h1 {
   margin: 10px 5px;
 }
 
+/* NEWS BITES */
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites h1 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bites {
+  border-bottom: 1px solid black;
+  font-size: 12px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  color: DimGray;
+  padding: 10px 10px;
+}
 
 
-
-
-
+/* FOOTER */
 
 div {
   border: 1px solid black;
