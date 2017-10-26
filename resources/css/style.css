@@ -1,3 +1,7 @@
+html {
+  font-family: Georgia;
+}
+
 body {
   font-family: Georgia;
   font-size: 17px;
@@ -105,7 +109,7 @@ a {
 
 .earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  height: 270px;
+  height: 250px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -115,7 +119,7 @@ a {
 
 .memory {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-  height: 300px;
+  height: 250px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -165,7 +169,7 @@ a {
 
 p .story {
   font-family: Georgia;
-  font-size: 14px;
+  font-size: 15px;
   color: black;
 
 }
@@ -178,15 +182,23 @@ h1 {
 
 /* STORIES */
 
-.stories {
+.stories-wrap {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-between;
+
 }
 
 
+.stories-1 {
+  margin: 10px 5px;
+}
 
 
+.stories-2 {
+  margin: 10px 5px;
+}
 
 
 
